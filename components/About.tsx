@@ -20,7 +20,7 @@ const About = () => {
             if you are interested using our services
           </p>
         </div>
-        <div className="w-[85%] flex items-center  backdrop-blur-md  right-0 top-[45%] bg-white/60 rounded-xl h-max absolute">
+        <div className="w-[85%] grid grid-cols-4  backdrop-blur-md  right-0 top-[45%] bg-white/60 rounded-xl h-max absolute">
           <AboutCard
             icon={"/images/experience-icon.png"}
             title="Experienced"
